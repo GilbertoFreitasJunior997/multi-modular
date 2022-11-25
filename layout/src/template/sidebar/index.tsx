@@ -4,7 +4,6 @@ import * as S from "./styles";
 
 const Sidebar: FC = () => {
   const navigate = useNavigate();
-  const user = localStorage.getItem("user");
 
   const [base, setBase] = useState(true);
 
@@ -14,6 +13,8 @@ const Sidebar: FC = () => {
       <S.ChangeModuleContainer>
         <S.ChangeModuleButton
           onClick={() => {
+            const user = localStorage.getItem("user");
+            
             if (!user) {
               alert("FAÇA LOGIN PARA MUDAR DE MODULO");
               return;

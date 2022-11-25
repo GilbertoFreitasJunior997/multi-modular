@@ -1,0 +1,7 @@
+{
+  "imports": {
+    "@bf/root-config": "https://teste-cloudfront-s3-path.s3.us-east-2.amazonaws.com/bf-root-config.js",
+    "@bf/layout": "https://teste-cloudfront-s3-path.s3.us-east-2.amazonaws.com/bf-layout.js",
+    "@bf/financeiro": "https://teste-cloudfront-s3-path.s3.us-east-2.amazonaws.com/bf-financeiro.js"
+  }
+}

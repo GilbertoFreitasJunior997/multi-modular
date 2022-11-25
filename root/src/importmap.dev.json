@@ -1,0 +1,7 @@
+{
+  "imports": {
+    "@bf/root-config": "http://localhost:9000/bf-root-config.js",
+    "@bf/layout": "http://localhost:8500/bf-layout.js",
+    "@bf/financeiro": "http://localhost:8501/bf-financeiro.js"
+  }
+}
